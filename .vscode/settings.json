@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "iostream": "cpp",
+        "stm32f1xx_hal.h": "c",
+        "stm32f103xb.h": "c",
+        "stm32_hal_legacy.h": "c"
+    }
+}

@@ -1,0 +1,24 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug Microcontroller",
+            "type": "cortex-debug",
+            "request": "launch",
+            "servertype": "openocd",
+            "executable": "./bin/stepper.elf",
+            "cwd": "${workspaceRoot}",
+            "device": "STM32F103C8", // optinal
+            "configFiles": [
+                "/home/erik/ARMToolchains/stm32f103c8t6.cfg"
+            ]
+            // "svdFile"
+            // "swoConfig"
+            // "graphConfig"
+            // "showDevDebugOutput"
+        }
+    ]
+}
